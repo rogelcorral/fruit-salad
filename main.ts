@@ -23,7 +23,7 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
 . . . . . . 5 f f 5 . . . . . . 
 . . . . . . . 5 5 . . . . . . . 
 `, myAeroplane, 0, -200)
-    music.wawawawaa.play()
+    music.powerUp.play()
 })
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSprite) {
     otherSprite.destroy()
